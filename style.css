@@ -501,6 +501,9 @@ border-radius: 20px;
 
 
 @media only screen and (max-width: 800px) {
+    #wallet-names {
+        font-size: 23px;
+    }
 
     #video2 {
         margin-top: -234px;
