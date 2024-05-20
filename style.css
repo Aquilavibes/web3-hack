@@ -1,0 +1,853 @@
+
+/*rgb(22, 22, 70)*/
+
+body {
+    background-image: url(2024-05-20\ 01.09.19.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#video2 {
+    margin-top: -234px;
+    width: 1000px;
+    height: 300px;
+    min-width: 100%;
+   
+    z-index: -1;
+    top: 0;
+left: 0;
+   
+}
+
+.video {
+position: absolute;
+top: 0;
+left: 0;
+padding-bottom: 100px;
+width: 1000px;
+min-width: 100%;
+min-height: 100%;
+z-index: -1;
+
+
+}
+
+.every{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+#welcome-text {
+    color: white;
+    font-size: 100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#block {
+    color: white;
+    font-size: 23px;
+}
+
+.btn-cont {
+    display: flex;
+    gap: 2%;
+}
+
+#connect {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(168, 81, 248);
+    color: white;
+    
+}
+
+#select {
+    background-color:  rgb(168, 81, 248);
+    color: white;
+    height:  30px;
+    border-radius: 10px;
+}
+
+.top-cont {
+    margin-top: 150px;
+    margin-left: 80px;
+   
+}
+
+#eth {
+    margin-top: -300px;
+    width: 400px;
+    margin-left: 400px;
+
+}
+
+#make {
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 30px;
+}
+
+#list {
+    color: white;
+    font-size: 25px;
+    margin-left: 12px;
+}
+
+#li-text {
+    color: white;
+    margin-left: 25px;
+}
+
+
+
+#listing-1 {
+    width: 350px;
+    background-color: rgb(22, 22, 70);
+}
+
+#listing-2 {
+    width: 350px;
+    background-color: rgb(22, 22, 70);
+}
+#listing-3 {
+    width: 350px;
+    background-color: rgb(22, 22, 70);
+}
+#listing-4 {
+    width: 350px;
+    background-color: rgb(22, 22, 70);
+}
+#listing-5 {
+    width: 350px;
+    background-color: rgb(22, 22, 70);
+}
+#listing-6 {
+    width: 350px;
+    background-color: rgb(22, 22, 70);
+}
+
+.grid-seh {
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 100px;
+   gap: 30px;
+}
+
+small {
+    color: grey;
+    font-size: 15px;
+    margin-left: 600px;
+    position: relative;
+}
+
+hr {
+    position: relative
+}
+
+.modal {
+    background-color: rgb(26, 26, 26);
+    position: fixed;
+    width: 430px;
+    margin-top: -5px;
+    margin-left: 500px;
+    height: 560px;
+    overflow: auto;
+    z-index: index;
+    color: white;
+    border-radius: 10px;
+    visibility: hidden;
+    
+
+}
+
+#wallet-select {
+    text-align: center;
+}
+
+#wallets-1 {
+  background-color: rgb(26, 26, 26);
+  box-shadow: 0px 0px 10px #000 ;
+  width: 350px;
+  height: 100px;
+  margin-left: 35px;
+  border-radius: 15px;
+}
+
+#wallets-2 {
+    background-color: rgb(26, 26, 26);
+    box-shadow: 0px 0px 10px #000 ;
+    width: 350px;
+    height: 100px;
+    margin-left: 35px;
+    border-radius: 15px;
+  }
+
+  #wallets-3 {
+    background-color: rgb(26, 26, 26);
+    box-shadow: 0px 0px 10px #000 ;
+    width: 350px;
+    height: 100px;
+    margin-left: 35px;
+    border-radius: 15px;
+  }
+
+  #wallets-4 {
+    background-color: rgb(26, 26, 26);
+    box-shadow: 0px 0px 10px #000 ;
+    width: 350px;
+    height: 100px;
+    margin-left: 35px;
+    border-radius: 15px;
+  }
+
+  #wallets-5 {
+    background-color: rgb(26, 26, 26);
+    box-shadow: 0px 0px 10px #000 ;
+    width: 350px;
+    height: 100px;
+    margin-left: 35px;
+    border-radius: 15px;
+  }
+
+#wallet-names {
+    margin-left: 150px;
+    margin-top: -65px;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+#wallet-icons {
+    width: 100px;
+   
+}
+
+#wallet-icon {
+    width: 160px;
+    margin-left: -30px;
+   
+}
+
+.backdrop {
+    margin-top: -500px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0,0.5);
+    position: fixed;
+    visibility: hidden;
+}
+
+#close {
+   margin-top: -50px;
+   margin-left: 30px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.phrase {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    position: fixed;
+    margin-top: -300px;
+    margin-left: 450px;
+    width: 500px;
+    height: 500px;
+    margin-top: -400px;
+    border-radius: 20px;
+    visibility: hidden;
+}
+#phrase-input {
+margin-left: 50px;
+height: 150px;
+background-color:  rgb(70, 70, 70);
+box-shadow: #000 0px 0px 10px;
+border-radius: 20px;
+width: 400px;
+font-size: 17px;
+color: white;
+text-align: center;
+}
+
+#wall-name {
+    width: 1px;
+    background-color: rgb(70, 70, 70);
+}
+
+#submit {
+   background-color: white;
+   color: black;
+   margin-top: 30px; 
+   margin-left: 180px;
+   width: 160px;
+   height: 50px;
+   font-size: 15px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(70, 70, 70);
+   border-radius: 20px;
+}
+#phrase-logo {
+    width: 100px;
+    margin-left: 90px;
+}
+
+#trust {
+    margin-left: 190px;
+    margin-top: -70px;
+    font-size: 22px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:  rgb(70, 70, 70);
+box-shadow: #000 0px 0px 10px;
+border-radius: 20px;
+}
+
+#close-phrase {
+    font-size: 30px;
+    margin-left: 18px;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#con-text {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 130px;
+    margin-top: -50px;
+}
+
+
+
+
+/*from the tablet*/
+@media only screen and (min-width: 1024px) {
+
+    
+    .btn-cont {
+        display: flex;
+    gap: 2%;
+    } 
+    #eth {
+        margin-top: -300px;
+        width: 350px;
+        margin-left: 300px;
+    }
+
+    #welcome-text {
+        color: white;
+        font-size: 45px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #block {
+        color: white;
+        font-size: 20px;
+    }
+
+    .grid-seh {
+        display: grid;
+       grid-template-columns: 1fr 1fr;
+       grid-template-rows: 100px;
+       gap: 30px;
+       margin-left: 60px;
+    }
+
+    small {
+        color: grey;
+        font-size: 15px;
+        margin-left: 400px;
+    }
+}
+
+/*tablet view*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .phrase {
+        margin-left: 200px;
+    }
+    .btn-cont {
+        display: flex;
+    gap: 2%;
+    } 
+    
+    #connect {
+        width: 150px;
+    }
+    #select {
+        margin-left: 15px;
+      
+    }
+    #eth {
+        margin-top: -300px;
+        width: 300px;
+        margin-left: 600px;
+    
+    }
+    
+    #welcome-text {
+        color: white;
+        font-size: 45px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #block {
+        color: white;
+        font-size: 20px;
+    }
+
+    .grid-seh {
+        display: grid;
+       grid-template-columns: 1fr 1fr;
+       grid-template-rows: 100px;
+       gap: 30px;
+       margin-left: 60px;
+    }
+
+    small {
+        color: grey;
+        font-size: 15px;
+        margin-left: 400px;
+    }
+    
+
+    .modal {
+        background-color: rgb(26, 26, 26);
+        position: fixed;
+        width: 380px;
+        margin-top: 50px;
+        margin-left: 250px;
+        height: 560px;
+        overflow: auto;
+        z-index: index;
+        color: white;
+        border-radius: 10px;
+        visibility: hidden;
+        
+    
+    }
+    
+    #wallet-select {
+        text-align: center;
+    }
+    
+    #wallets {
+      background-color: rgb(26, 26, 26);
+      box-shadow: 0px 0px 10px #000 ;
+      width: 300px;
+      height: 70px;
+      margin-left: 35px;
+      border-radius: 15px;
+    }
+    
+    #wallet-names {
+        margin-left: 90px;
+        margin-top: -45spx;
+        font-size: 30px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    
+    
+    #wallet-icons {
+        width: 70px;
+       
+    }
+    
+    
+}
+
+/*desktop view*/
+@media only screen and (min-width: 1025px) {
+
+    
+
+    .btn-cont {
+        display: flex;
+    gap: 2%;
+    } 
+#eth {
+    width: 350px;
+    margin-left: 750px;
+
+}
+
+#welcome-text {
+    color: white;
+    font-size: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#block {
+    color: white;
+    font-size: 20px;
+}
+
+.grid-seh {
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 100px;
+   gap: 30px;
+   margin-left: 200px;
+}
+
+#make {
+    margin-top: 80px;
+}
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    #video2 {
+        margin-top: -234px;
+        width: 1000px;
+        height: 300px;
+        min-width: 100%;
+       
+        z-index: -1;
+        top: 0;
+    left: 0;
+    visibility: hidden;
+       
+    }
+    
+    .video {
+        visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-bottom: 600px;
+    width: 1000px;
+    
+    
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    
+    
+    }
+    
+
+    .video3 {
+        position: absolute;
+        width: 500px;
+        z-index: -1;
+        overflow-y:hidden;
+        
+        
+        }
+        
+
+    #wallets-1 {
+        width: 300px;
+    }
+    #wallets-2 {
+        width: 300px;
+    }
+    #wallets-3 {
+        width: 300px;
+    }
+    #wallets-4 {
+        width: 300px;
+    }
+
+    #wallets-5 {
+        width: 300px;
+    }
+
+    .phrase {
+        margin-top: -650px;
+        margin-left: -1px;
+        width: 400px;
+    }
+
+    #phrase-input {
+        width: 300px;
+    }
+    
+    #submit {
+        margin-left: 130px;
+    }
+    .btn-cont {
+        display: flex;
+    gap: 2%;
+    } 
+    
+    #connect {
+        width: 150px;
+    }
+    #select {
+        margin-left: 15px;
+    }
+    #eth {
+        margin-top: 50px;
+        width: 300px;
+        margin-left: 10px;
+    
+    }
+    
+    #welcome-text {
+        color: white;
+        font-size: 30px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #block {
+        color: white;
+        font-size: 18px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .top-cont {
+        margin-top: 90px;
+        margin-left: 40px;
+        
+    }
+    .grid-seh {
+        display: grid;
+       grid-template-columns: 1fr;
+       grid-template-rows: 100px;
+       gap: 30px;
+       margin-left: 15px;
+    }
+
+    #make {
+        color: white;
+        text-align: center;
+        margin-top: 25px;
+        font-size: 30px;
+    }
+
+    small {
+        margin-left: 150px;
+    }
+
+    .modal {
+        background-color: rgb(26, 26, 26);
+        position: fixed;
+        width: 380px;
+        margin-top: -200px;
+        margin-left: 20px;
+        height: 560px;
+        overflow-y: scroll;
+        z-index: index;
+        color: white;
+        border-radius: 10px;
+        visibility: hidden;
+        
+    
+    }
+    
+    #wallet-select {
+        text-align: center;
+    }
+    
+    #wallets {
+      background-color: rgb(26, 26, 26);
+      box-shadow: 0px 0px 10px #000 ;
+      width: 300px;
+      height: 70px;
+      margin-left: 35px;
+      border-radius: 15px;
+    }
+    
+    #wallet-names {
+        margin-left: 90px;
+        margin-top: -45spx;
+        font-size: 30px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    
+    
+    #wallet-icons {
+        width: 70px;
+        margin-top: 20px;
+       
+    }
+
+
+    .backdrop {
+        margin-top: -500px;
+        width: 100%;
+        height: 600px;
+        background-color: rgb(0,0,0,0.5);
+        position: fixed;
+        visibility: hidden;
+      
+    }
+    
+    
+}
+
+/*smaller devices */
+@media only screen and (max-width: 375px) {
+
+
+    #wallets-1 {
+        width: 280px;
+    }
+    #wallets-2 {
+        width: 280px;
+    }
+    #wallets-3 {
+        width: 280px;
+    }
+    #wallets-4 {
+        width: 280px;
+    }
+
+    #wallets-5 {
+        width: 280px;
+    }
+
+   
+
+    .phrase {
+        width: 350px;
+        margin-left: -5px;
+        margin-top: -750px;
+    }
+
+    #phrase-input {
+        margin-left: 20px;
+    }
+    
+    #submit {
+        margin-left: 100px;
+    }
+
+    #con-text {
+        font-size: 20px;
+        margin-left: 100px;
+    }
+
+    #phrase-logo{
+        margin-left: 30px;
+    }
+
+    #trust {
+        margin-left: 130px;
+    }
+
+    #welcome-text {
+        color: white;
+        font-size: 30px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #block {
+        color: white;
+        font-size: 15px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .top-cont {
+        margin-top: 120px;
+        margin-left: 30px;
+    }
+    .grid-seh {
+        display: grid;
+       grid-template-columns: 1fr;
+       grid-template-rows: 100px;
+       gap: 30px;
+       margin-left: 60px;
+    }
+
+    #make {
+        color: white;
+        text-align: center;
+        margin-top: 25px;
+        font-size: 25px;
+    }
+
+    #listing-1 {
+        width: 250px;
+        background-color: rgb(22, 22, 70);
+    }
+    
+    #listing-2 {
+        width: 250px;
+        background-color: rgb(22, 22, 70);
+    }
+    #listing-3 {
+        width: 250px;
+        background-color: rgb(22, 22, 70);
+    }
+    #listing-4 {
+        width: 250px;
+        background-color: rgb(22, 22, 70);
+    }
+    #listing-5 {
+        width: 250px;
+        background-color: rgb(22, 22, 70);
+    }
+    #listing-6 {
+        width: 250px;
+        background-color: rgb(22, 22, 70);
+    }
+
+    small {
+        margin-left: 100px;
+    }
+
+    .modal {
+        background-color: rgb(26, 26, 26);
+        position: fixed;
+        width: 330px;
+        margin-top: -200px;
+        margin-left: -1px;
+        height: 560px;
+        overflow-y: scroll;
+        z-index: index;
+        color: white;
+        border-radius: 10px;
+        visibility: hidden;
+        
+    
+    }
+    
+    #wallet-select {
+        text-align: center;
+    }
+    
+    #wallets {
+      background-color: rgb(26, 26, 26);
+      box-shadow: 0px 0px 10px #000 ;
+      width: 280px;
+      height: 70px;
+      margin-left: 35px;
+      border-radius: 15px;
+    }
+    
+    #wallet-names {
+        margin-left: 90px;
+        margin-top: -45px;
+        font-size: 30px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    
+    
+    #wallet-icons {
+        width: 70px;
+       
+    }
+
+
+    .backdrop {
+        margin-top: -500px;
+        width: 100%;
+        height: 600px;
+        background-color: rgb(0,0,0,0.5);
+        position: fixed;
+        visibility: hidden;
+      
+    }
+    
+    
+}
